@@ -74,7 +74,9 @@
 
 ## 💻 Most Used Languages
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=ayushraj10092002-dotcom&layout=compact&theme=tokyonight)
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayushraj10092002-dotcom&layout=compact&theme=tokyonight" />
+</p>
 
 ## 🏆 GitHub Trophies
 
