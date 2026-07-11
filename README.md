@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Ayush Raj</h1>
-<h3 align="center">B.Tech CSE Student | Python Developer | AI & ML Learner | CodeAlpha Intern 🚀</h3>
+<h3 align="center">B.Tech CSE Student | Python Developer | AI & ML Learner 🚀</h3>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&center=true&vCenter=true&width=700&color=00F72D&lines=Welcome+to+my+GitHub!;Python+Developer;AI+%26+ML+Learner;CodeAlpha+Intern;Open+Source+Enthusiast;Always+Learning+New+Technologies"/>
