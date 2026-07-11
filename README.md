@@ -74,13 +74,11 @@
 
 ## 💻 Most Used Languages
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayushraj10092002-dotcom&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
+<img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=ayushraj10092002-dotcom&layout=compact&theme=tokyonight" />
 
 ## 🏆 GitHub Trophies
 
-![](https://github-profile-trophy.vercel.app/?username=ayushraj10092002-dotcom&theme=algolia&no-frame=true)
+<img src="https://github-profile-trophy.vercel.app/?username=ayushraj10092002-dotcom&theme=onedark&no-frame=true&row=1&column=6" />
 
 ## 📈 Contribution Graph
 
