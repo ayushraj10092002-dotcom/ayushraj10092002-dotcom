@@ -2,7 +2,7 @@
 <h3 align="center">B.Tech CSE Student | Python Developer | AI & ML Learner 🚀</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&center=true&vCenter=true&width=700&color=00F72D&lines=Welcome+to+my+GitHub!;Python+Developer;AI+%26+ML+Learner;CodeAlpha+Intern;Open+Source+Enthusiast;Always+Learning+New+Technologies"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&center=true&vCenter=true&width=700&color=00F72D&lines=Welcome+to+my+GitHub!;Python+Developer;AI+%26+ML+Learner;Open+Source+Enthusiast;Always+Learning+New+Technologies"/>
 </p>
 
 <p align="center">
@@ -16,7 +16,6 @@
 - 🎓 B.Tech CSE Student at **Meerut Institute of Engineering & Technology (MIET)**
 - 💻 Python Developer
 - 🤖 AI & ML Learner
-- 🚀 CodeAlpha Python Intern
 - 🌱 Currently learning Generative AI, Cloud Computing and Git
 - 🎯 Goal: Become an AI Engineer
 
@@ -75,10 +74,6 @@
 ## 💻 Most Used Languages
 
 <img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=ayushraj10092002-dotcom&layout=compact&theme=tokyonight" />
-
-## 🏆 GitHub Trophies
-
-<img src="https://github-profile-trophy.vercel.app/?username=ayushraj10092002-dotcom&theme=onedark&no-frame=true&row=1&column=6" />
 
 ## 📈 Contribution Graph
 
