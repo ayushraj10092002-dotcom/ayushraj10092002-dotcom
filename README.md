@@ -63,10 +63,6 @@
 
 ---
 
-## 📊 GitHub Stats
-
-![](https://github-readme-stats.vercel.app/api?username=ayushraj10092002-dotcom&show_icons=true&theme=tokyonight)
-
 ## 🔥 GitHub Streak
 
 ![](https://streak-stats.demolab.com?user=ayushraj10092002-dotcom&theme=tokyonight)
