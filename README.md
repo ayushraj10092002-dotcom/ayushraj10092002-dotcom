@@ -170,6 +170,6 @@
 </p>
 
 <p align="center">
-  <strong>Made with ⚡ by Ayush Ram</strong><br>
+  <strong>Made with ⚡ by Ayush Raj</strong><br>
   <em>Premium Cinematic Developer Portfolio • October 2026</em>
 </p>
