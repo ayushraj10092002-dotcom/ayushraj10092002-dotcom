@@ -1,0 +1,62 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aboutBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a1120;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f1a2e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="aboutGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:0.4" />
+    </linearGradient>
+    <filter id="glowAbout">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur" />
+      <feMerge>
+        <feMergeNode in="coloredBlur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="280" fill="url(#aboutBg)" />
+
+  <!-- Top border glow -->
+  <rect x="40" y="30" width="1120" height="220" rx="20" fill="#0a1120" opacity="0.6" stroke="url(#aboutGlow)" stroke-width="2" filter="url(#glowAbout)" />
+  <rect x="50" y="40" width="1100" height="200" rx="16" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.2" />
+
+  <!-- Icon circles for sections -->
+  <circle cx="100" cy="90" r="28" fill="#0f1a2e" stroke="#00d4ff" stroke-width="2" opacity="0.7" />
+  <text x="100" y="105" font-family="Arial" font-size="32" text-anchor="middle" fill="#00d4ff" opacity="0.8">🎓</text>
+
+  <circle cx="100" cy="180" r="28" fill="#0f1a2e" stroke="#7c3aed" stroke-width="2" opacity="0.7" />
+  <text x="100" y="195" font-family="Arial" font-size="32" text-anchor="middle" fill="#7c3aed" opacity="0.8">🔧</text>
+
+  <!-- Left column content -->
+  <text x="150" y="75" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#00d4ff">EDUCATION</text>
+  <text x="150" y="102" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="#eafbff">Meerut Institute of Engineering & Technology</text>
+  <text x="150" y="125" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#8bb8ff">B.Tech CSE • 2025-2029 • 3rd Semester</text>
+
+  <text x="150" y="165" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#7c3aed">PROFESSIONAL IDENTITY</text>
+  <text x="150" y="192" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#eafbff">Python Developer • AI/ML Learner • DSA Practitioner</text>
+  <text x="150" y="215" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#8bb8ff">Generative AI Explorer • Microsoft Student Ambassador</text>
+
+  <!-- Right side stats boxes -->
+  <g>
+    <!-- Location box -->
+    <rect x="900" y="55" width="220" height="80" rx="12" fill="#0f1a2e" stroke="#00d4ff" stroke-width="1.5" opacity="0.7" />
+    <text x="920" y="77" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#00d4ff">📍 LOCATION</text>
+    <text x="920" y="103" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="600" fill="#eafbff">Meerut, Uttar Pradesh</text>
+    <text x="920" y="121" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#8bb8ff">India</text>
+  </g>
+
+  <g>
+    <!-- Focus box -->
+    <rect x="900" y="155" width="220" height="80" rx="12" fill="#0f1a2e" stroke="#7c3aed" stroke-width="1.5" opacity="0.7" />
+    <text x="920" y="177" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#7c3aed">🎯 CURRENT FOCUS</text>
+    <text x="920" y="203" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#eafbff">Python & AI/ML</text>
+    <text x="920" y="221" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#8bb8ff">Web Development</text>
+  </g>
+
+  <!-- Decorative connecting line -->
+  <line x1="500" y1="140" x2="850" y2="140" stroke="url(#aboutGlow)" stroke-width="2" opacity="0.5" />
+</svg>

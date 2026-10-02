@@ -1,0 +1,56 @@
+<svg width="1200" height="240" viewBox="0 0 1200 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="connBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a1120;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f1a2e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="connGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:0.4" />
+    </linearGradient>
+    <filter id="glowConn">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur" />
+      <feMerge>
+        <feMergeNode in="coloredBlur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="240" fill="url(#connBg)" />
+
+  <!-- Main container -->
+  <rect x="40" y="30" width="1120" height="180" rx="20" fill="#0a1120" opacity="0.6" stroke="url(#connGlow)" stroke-width="2" filter="url(#glowConn)" />
+
+  <!-- Header -->
+  <text x="70" y="70" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="700" fill="#00d4ff" letter-spacing="1">LET'S CONNECT & BUILD</text>
+  <line x1="70" y1="82" x2="380" y2="82" stroke="#00d4ff" stroke-width="2" opacity="0.6" />
+
+  <!-- Connection boxes -->
+  <g font-family="'Segoe UI', Arial, sans-serif">
+    <!-- GitHub -->
+    <rect x="70" y="110" width="240" height="80" rx="12" fill="#0f1a2e" stroke="#00d4ff" stroke-width="1.5" opacity="0.7" filter="url(#glowConn)" />
+    <text x="90" y="130" font-size="13" font-weight="700" fill="#00d4ff">🐱 GITHUB</text>
+    <text x="90" y="155" font-size="14" font-weight="600" fill="#eafbff">ayushraj10092002-dotcom</text>
+    <text x="90" y="175" font-size="11" fill="#8bb8ff">Explore my repositories</text>
+
+    <!-- LinkedIn -->
+    <rect x="340" y="110" width="240" height="80" rx="12" fill="#0f1a2e" stroke="#00d4ff" stroke-width="1.5" opacity="0.7" filter="url(#glowConn)" />
+    <text x="360" y="130" font-size="13" font-weight="700" fill="#00d4ff">💼 LINKEDIN</text>
+    <text x="360" y="155" font-size="14" font-weight="600" fill="#eafbff">ayush-raj-6a5618361</text>
+    <text x="360" y="175" font-size="11" fill="#8bb8ff">Connect professionally</text>
+
+    <!-- Portfolio -->
+    <rect x="610" y="110" width="240" height="80" rx="12" fill="#0f1a2e" stroke="#7c3aed" stroke-width="1.5" opacity="0.7" filter="url(#glowConn)" />
+    <text x="630" y="130" font-size="13" font-weight="700" fill="#7c3aed">🌐 PORTFOLIO</text>
+    <text x="630" y="155" font-size="12" font-weight="600" fill="#eafbff">cinematic-developer-world</text>
+    <text x="630" y="175" font-size="11" fill="#8bb8ff">View my work & projects</text>
+
+    <!-- Email -->
+    <rect x="880" y="110" width="240" height="80" rx="12" fill="#0f1a2e" stroke="#00d4ff" stroke-width="1.5" opacity="0.7" filter="url(#glowConn)" />
+    <text x="900" y="130" font-size="13" font-weight="700" fill="#00d4ff">📧 EMAIL</text>
+    <text x="900" y="155" font-size="12" font-weight="600" fill="#eafbff">ayushraj10092002</text>
+    <text x="900" y="175" font-size="11" fill="#8bb8ff">Get in touch directly</text>
+  </g>
+</svg>

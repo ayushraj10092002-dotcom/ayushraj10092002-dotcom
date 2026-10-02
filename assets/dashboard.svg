@@ -1,0 +1,57 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dashBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a1120;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f1a2e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="dashGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:0.3" />
+    </linearGradient>
+    <filter id="glowDash">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur" />
+      <feMerge>
+        <feMergeNode in="coloredBlur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="280" fill="url(#dashBg)" />
+
+  <!-- Main container -->
+  <rect x="40" y="30" width="1120" height="220" rx="20" fill="#0a1120" opacity="0.6" stroke="url(#dashGlow)" stroke-width="2" filter="url(#glowDash)" />
+
+  <!-- Header -->
+  <text x="70" y="70" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="700" fill="#00d4ff" letter-spacing="1">GITHUB COMMAND CENTER</text>
+  <line x1="70" y1="82" x2="435" y2="82" stroke="#00d4ff" stroke-width="2" opacity="0.6" />
+
+  <!-- Stat boxes -->
+  <g font-family="'Segoe UI', Arial, sans-serif">
+    <!-- Repositories -->
+    <rect x="70" y="110" width="180" height="100" rx="12" fill="#0f1a2e" stroke="#00d4ff" stroke-width="1.5" opacity="0.7" filter="url(#glowDash)" />
+    <text x="90" y="135" font-size="12" font-weight="700" fill="#00d4ff">REPOSITORIES</text>
+    <text x="90" y="165" font-size="32" font-weight="700" fill="#eafbff">6+</text>
+    <text x="90" y="195" font-size="12" fill="#8bb8ff">Public Projects</text>
+
+    <!-- Stars -->
+    <rect x="280" y="110" width="180" height="100" rx="12" fill="#0f1a2e" stroke="#00d4ff" stroke-width="1.5" opacity="0.7" filter="url(#glowDash)" />
+    <text x="300" y="135" font-size="12" font-weight="700" fill="#00d4ff">STARS</text>
+    <text x="300" y="165" font-size="32" font-weight="700" fill="#eafbff">1+</text>
+    <text x="300" y="195" font-size="12" fill="#8bb8ff">Growing</text>
+
+    <!-- Followers -->
+    <rect x="490" y="110" width="180" height="100" rx="12" fill="#0f1a2e" stroke="#7c3aed" stroke-width="1.5" opacity="0.7" filter="url(#glowDash)" />
+    <text x="510" y="135" font-size="12" font-weight="700" fill="#7c3aed">FOLLOWERS</text>
+    <text x="510" y="165" font-size="32" font-weight="700" fill="#eafbff">1+</text>
+    <text x="510" y="195" font-size="12" fill="#8bb8ff">Connect With Me</text>
+
+    <!-- Stats note -->
+    <rect x="700" y="110" width="380" height="100" rx="12" fill="#0f1a2e" stroke="#00d4ff" stroke-width="1.5" opacity="0.7" filter="url(#glowDash)" />
+    <text x="720" y="135" font-size="12" font-weight="700" fill="#00d4ff">📊 GITHUB STATS</text>
+    <text x="720" y="160" font-size="13" fill="#8bb8ff">Real-time GitHub statistics powered by</text>
+    <text x="720" y="180" font-size="13" fill="#8bb8ff">GitHub API • Contributions • Activity Graph</text>
+    <text x="720" y="200" font-size="11" fill="#7c3aed" font-weight="600">View below ↓</text>
+  </g>
+</svg>
