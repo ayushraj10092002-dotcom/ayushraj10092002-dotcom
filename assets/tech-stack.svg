@@ -16,18 +16,10 @@
       </feMerge>
     </filter>
   </defs>
-
-  <!-- Background -->
   <rect width="1200" height="420" fill="url(#techBg)" />
-
-  <!-- Main container -->
   <rect x="40" y="30" width="1120" height="360" rx="20" fill="#0a1120" opacity="0.6" stroke="url(#techGlow)" stroke-width="2" filter="url(#glowTech)" />
-
-  <!-- Header -->
   <text x="70" y="70" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="700" fill="#00d4ff" letter-spacing="1">TECH STACK</text>
   <line x1="70" y1="82" x2="280" y2="82" stroke="#00d4ff" stroke-width="2" opacity="0.6" />
-
-  <!-- Category 1: Languages -->
   <text x="70" y="130" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#7c3aed">LANGUAGES</text>
   <g font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#8bb8ff">
     <text x="70" y="160">▸ Python</text>
@@ -35,38 +27,28 @@
     <text x="70" y="220">▸ Java</text>
     <text x="70" y="250">▸ HTML5 • CSS3 • JavaScript</text>
   </g>
-
-  <!-- Category 2: Tools -->
-  <text x="380" y="130" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#7c3aed">TOOLS & PLATFORMS</text>
+  <text x="380" y="130" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#7c3aed">TOOLS &amp; PLATFORMS</text>
   <g font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#8bb8ff">
     <text x="380" y="160">▸ Git • GitHub</text>
     <text x="380" y="190">▸ VS Code • PyCharm</text>
     <text x="380" y="220">▸ Linux • Bash</text>
     <text x="380" y="250">▸ MySQL</text>
   </g>
-
-  <!-- Category 3: AI/ML -->
-  <text x="700" y="130" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#7c3aed">AI & ML</text>
+  <text x="700" y="130" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#7c3aed">AI &amp; ML</text>
   <g font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#8bb8ff">
     <text x="700" y="160">▸ Machine Learning</text>
     <text x="700" y="190">▸ Generative AI</text>
     <text x="700" y="220">▸ Data Science</text>
     <text x="700" y="250">▸ Neural Networks</text>
   </g>
-
-  <!-- Cloud box -->
   <rect x="70" y="290" width="270" height="80" rx="12" fill="#0f1a2e" stroke="#00d4ff" stroke-width="1.5" opacity="0.7" />
-  <text x="90" y="315" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" fill="#00d4ff">☁️ CLOUD & INFRASTRUCTURE</text>
+  <text x="90" y="315" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" fill="#00d4ff">☁️ CLOUD &amp; INFRASTRUCTURE</text>
   <text x="90" y="340" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#8bb8ff">AWS • Cloud Computing (Learning)</text>
   <text x="90" y="360" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#8bb8ff">Infrastructure as Code</text>
-
-  <!-- DSA box -->
   <rect x="380" y="290" width="270" height="80" rx="12" fill="#0f1a2e" stroke="#7c3aed" stroke-width="1.5" opacity="0.7" />
-  <text x="400" y="315" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" fill="#7c3aed">📊 DATA STRUCTURES & ALGORITHMS</text>
+  <text x="400" y="315" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" fill="#7c3aed">📊 DATA STRUCTURES &amp; ALGORITHMS</text>
   <text x="400" y="340" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#8bb8ff">Arrays • Trees • Graphs • Dynamic Programming</text>
   <text x="400" y="360" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#8bb8ff">Sorting • Searching • Optimization</text>
-
-  <!-- Web box -->
   <rect x="690" y="290" width="270" height="80" rx="12" fill="#0f1a2e" stroke="#00d4ff" stroke-width="1.5" opacity="0.7" />
   <text x="710" y="315" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" fill="#00d4ff">🌐 WEB DEVELOPMENT</text>
   <text x="710" y="340" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#8bb8ff">Responsive Design • Frontend Basics</text>

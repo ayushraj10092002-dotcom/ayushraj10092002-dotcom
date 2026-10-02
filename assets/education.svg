@@ -16,20 +16,12 @@
       </feMerge>
     </filter>
   </defs>
-
-  <!-- Background -->
   <rect width="1200" height="240" fill="url(#eduBg)" />
-
-  <!-- Main container -->
   <rect x="40" y="30" width="1120" height="180" rx="20" fill="#0a1120" opacity="0.6" stroke="url(#eduGlow)" stroke-width="2" filter="url(#glowEdu)" />
-
-  <!-- Icon -->
   <circle cx="90" cy="100" r="32" fill="#0f1a2e" stroke="#00d4ff" stroke-width="2" opacity="0.7" />
   <text x="90" y="115" font-family="Arial" font-size="48" text-anchor="middle" fill="#00d4ff" opacity="0.8">🎓</text>
-
-  <!-- Content -->
-  <text x="150" y="75" font-family="'Segoe UI', Arial, sans-serif" font-size="24" font-weight="700" fill="#eafbff">Meerut Institute of Engineering & Technology</text>
-  <text x="150" y="110" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="600" fill="#00d4ff">Bachelor of Technology — Computer Science & Engineering</text>
+  <text x="150" y="75" font-family="'Segoe UI', Arial, sans-serif" font-size="24" font-weight="700" fill="#eafbff">Meerut Institute of Engineering &amp; Technology</text>
+  <text x="150" y="110" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="600" fill="#00d4ff">Bachelor of Technology — Computer Science &amp; Engineering</text>
   <text x="150" y="140" font-family="'Segoe UI', Arial, sans-serif" font-size="15" fill="#8bb8ff">Duration: 2025–2029 • Current Semester: 3rd</text>
   <text x="150" y="165" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#8bb8ff" opacity="0.8">Focus: AI/ML • DSA • Web Development • Software Engineering</text>
 </svg>

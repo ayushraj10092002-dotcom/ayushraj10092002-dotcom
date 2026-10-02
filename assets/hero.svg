@@ -24,11 +24,7 @@
       </feMerge>
     </filter>
   </defs>
-
-  <!-- Background -->
   <rect width="1200" height="500" fill="url(#heroBg)" />
-
-  <!-- Subtle grid pattern -->
   <g opacity="0.05" stroke="#00d4ff" stroke-width="1">
     <line x1="0" y1="50" x2="1200" y2="50" />
     <line x1="0" y1="100" x2="1200" y2="100" />
@@ -47,54 +43,36 @@
     <line x1="900" y1="0" x2="900" y2="500" />
     <line x1="1050" y1="0" x2="1050" y2="500" />
   </g>
-
-  <!-- Corner glow accents -->
   <circle cx="0" cy="0" r="200" fill="url(#cornerGlow)" />
   <circle cx="1200" cy="500" r="200" fill="url(#cornerGlow)" />
-
-  <!-- Main content card with glassmorphism -->
   <rect x="80" y="60" width="1040" height="380" rx="24" fill="#0a1120" opacity="0.7" stroke="url(#glowGrad)" stroke-width="2" filter="url(#glow)" />
   <rect x="90" y="70" width="1020" height="360" rx="20" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.3" />
-
-  <!-- Left decorative element -->
   <g opacity="0.8">
     <circle cx="180" cy="250" r="100" fill="none" stroke="#00d4ff" stroke-width="2" opacity="0.4" />
     <circle cx="180" cy="250" r="70" fill="none" stroke="#7c3aed" stroke-width="1.5" opacity="0.3" />
     <circle cx="180" cy="250" r="40" fill="#00d4ff" opacity="0.1" />
     <path d="M 180 150 L 220 250 L 180 350 L 140 250 Z" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.5" />
   </g>
-
-  <!-- Center content -->
-  <text x="400" y="180" font-family="'Segoe UI', Arial, sans-serif" font-size="56" font-weight="700" fill="#eafbff" letter-spacing="2">AYUSH RAJ</text>
-  
+  <text x="400" y="180" font-family="'Segoe UI', Arial, sans-serif" font-size="56" font-weight="700" fill="#eafbff" letter-spacing="2">AYUSH RAM</text>
   <text x="400" y="220" font-family="'Segoe UI', Arial, sans-serif" font-size="24" font-weight="600" fill="#00d4ff">B.Tech CSE Student</text>
-  
   <text x="400" y="260" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="500" fill="#8bb8ff">Python Developer • AI/ML Learner • DSA Practitioner</text>
-  
   <text x="400" y="295" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="500" fill="#8bb8ff" opacity="0.9">Generative AI Explorer • Microsoft Student Ambassador</text>
-
-  <!-- Status indicator with pulse animation -->
   <g filter="url(#glow)">
     <circle cx="400" cy="340" r="8" fill="#00d4ff">
       <animate attributeName="r" values="8;12;8" dur="2s" repeatCount="indefinite" />
       <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite" />
     </circle>
   </g>
-  <text x="420" y="345" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#00d4ff">AVAILABLE FOR LEARNING & COLLABORATION</text>
-
-  <!-- Right side decorative nodes -->
+  <text x="420" y="345" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#00d4ff">AVAILABLE FOR LEARNING &amp; COLLABORATION</text>
   <g opacity="0.6">
     <circle cx="1050" cy="140" r="6" fill="#7c3aed" />
     <circle cx="1020" cy="200" r="5" fill="#00d4ff" />
     <circle cx="1080" cy="280" r="6" fill="#7c3aed" />
     <circle cx="1040" cy="360" r="5" fill="#00d4ff" />
-    
     <line x1="1050" y1="140" x2="1020" y2="200" stroke="#00d4ff" stroke-width="1" opacity="0.4" />
     <line x1="1020" y1="200" x2="1080" y2="280" stroke="#7c3aed" stroke-width="1" opacity="0.4" />
     <line x1="1080" y1="280" x2="1040" y2="360" stroke="#00d4ff" stroke-width="1" opacity="0.4" />
   </g>
-
-  <!-- Animated gradient line at bottom -->
   <defs>
     <linearGradient id="bottomLine" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:0" />

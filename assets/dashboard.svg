@@ -16,38 +16,23 @@
       </feMerge>
     </filter>
   </defs>
-
-  <!-- Background -->
   <rect width="1200" height="280" fill="url(#dashBg)" />
-
-  <!-- Main container -->
   <rect x="40" y="30" width="1120" height="220" rx="20" fill="#0a1120" opacity="0.6" stroke="url(#dashGlow)" stroke-width="2" filter="url(#glowDash)" />
-
-  <!-- Header -->
   <text x="70" y="70" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="700" fill="#00d4ff" letter-spacing="1">GITHUB COMMAND CENTER</text>
   <line x1="70" y1="82" x2="435" y2="82" stroke="#00d4ff" stroke-width="2" opacity="0.6" />
-
-  <!-- Stat boxes -->
   <g font-family="'Segoe UI', Arial, sans-serif">
-    <!-- Repositories -->
     <rect x="70" y="110" width="180" height="100" rx="12" fill="#0f1a2e" stroke="#00d4ff" stroke-width="1.5" opacity="0.7" filter="url(#glowDash)" />
     <text x="90" y="135" font-size="12" font-weight="700" fill="#00d4ff">REPOSITORIES</text>
     <text x="90" y="165" font-size="32" font-weight="700" fill="#eafbff">6+</text>
     <text x="90" y="195" font-size="12" fill="#8bb8ff">Public Projects</text>
-
-    <!-- Stars -->
     <rect x="280" y="110" width="180" height="100" rx="12" fill="#0f1a2e" stroke="#00d4ff" stroke-width="1.5" opacity="0.7" filter="url(#glowDash)" />
     <text x="300" y="135" font-size="12" font-weight="700" fill="#00d4ff">STARS</text>
     <text x="300" y="165" font-size="32" font-weight="700" fill="#eafbff">1+</text>
     <text x="300" y="195" font-size="12" fill="#8bb8ff">Growing</text>
-
-    <!-- Followers -->
     <rect x="490" y="110" width="180" height="100" rx="12" fill="#0f1a2e" stroke="#7c3aed" stroke-width="1.5" opacity="0.7" filter="url(#glowDash)" />
     <text x="510" y="135" font-size="12" font-weight="700" fill="#7c3aed">FOLLOWERS</text>
     <text x="510" y="165" font-size="32" font-weight="700" fill="#eafbff">1+</text>
     <text x="510" y="195" font-size="12" fill="#8bb8ff">Connect With Me</text>
-
-    <!-- Stats note -->
     <rect x="700" y="110" width="380" height="100" rx="12" fill="#0f1a2e" stroke="#00d4ff" stroke-width="1.5" opacity="0.7" filter="url(#glowDash)" />
     <text x="720" y="135" font-size="12" font-weight="700" fill="#00d4ff">📊 GITHUB STATS</text>
     <text x="720" y="160" font-size="13" fill="#8bb8ff">Real-time GitHub statistics powered by</text>

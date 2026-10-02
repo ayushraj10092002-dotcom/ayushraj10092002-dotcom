@@ -16,20 +16,11 @@
       </feMerge>
     </filter>
   </defs>
-
-  <!-- Background -->
   <rect width="1200" height="340" fill="url(#certBg)" />
-
-  <!-- Main container -->
   <rect x="40" y="30" width="1120" height="280" rx="20" fill="#0a1120" opacity="0.6" stroke="url(#certGlow)" stroke-width="2" filter="url(#glowCert)" />
-
-  <!-- Header -->
-  <text x="70" y="70" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="700" fill="#00d4ff" letter-spacing="1">CERTIFICATIONS & ACHIEVEMENTS</text>
+  <text x="70" y="70" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="700" fill="#00d4ff" letter-spacing="1">CERTIFICATIONS &amp; ACHIEVEMENTS</text>
   <line x1="70" y1="82" x2="520" y2="82" stroke="#00d4ff" stroke-width="2" opacity="0.6" />
-
-  <!-- Certifications grid -->
   <g font-family="'Segoe UI', Arial, sans-serif">
-    <!-- Row 1 -->
     <g>
       <circle cx="90" cy="130" r="8" fill="#00d4ff" opacity="0.8" />
       <text x="110" y="136" font-size="15" font-weight="600" fill="#eafbff">Microsoft AI for Sustainability</text>
@@ -42,8 +33,6 @@
       <circle cx="890" cy="130" r="8" fill="#7c3aed" opacity="0.8" />
       <text x="910" y="136" font-size="15" font-weight="600" fill="#eafbff">Microsoft Student Ambassador</text>
     </g>
-
-    <!-- Row 2 -->
     <g>
       <circle cx="90" cy="180" r="8" fill="#00d4ff" opacity="0.8" />
       <text x="110" y="186" font-size="15" font-weight="600" fill="#eafbff">NLP Mastery in Python (Udemy)</text>
@@ -56,19 +45,15 @@
       <circle cx="890" cy="180" r="8" fill="#00d4ff" opacity="0.8" />
       <text x="910" y="186" font-size="15" font-weight="600" fill="#eafbff">IBM SkillsBuild Training</text>
     </g>
-
-    <!-- Row 3 -->
     <g>
       <circle cx="90" cy="230" r="8" fill="#7c3aed" opacity="0.8" />
-      <text x="110" y="236" font-size="15" font-weight="600" fill="#eafbff">Green Skills & Applied AI (1M1B)</text>
+      <text x="110" y="236" font-size="15" font-weight="600" fill="#eafbff">Green Skills &amp; Applied AI (1M1B)</text>
     </g>
     <g>
       <circle cx="490" cy="230" r="8" fill="#00d4ff" opacity="0.8" />
       <text x="510" y="236" font-size="15" font-weight="600" fill="#eafbff">CodeAlpha Python Internship</text>
     </g>
   </g>
-
-  <!-- Status indicator -->
   <rect x="70" y="280" width="1050" height="20" rx="10" fill="#0f1a2e" stroke="#7c3aed" stroke-width="1" opacity="0.6" />
-  <text x="90" y="297" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#7c3aed" font-weight="600">✓ Verified Credentials • Continuously Learning & Adding New Certifications</text>
+  <text x="90" y="297" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#7c3aed" font-weight="600">✓ Verified Credentials • Continuously Learning &amp; Adding New Certifications</text>
 </svg>
