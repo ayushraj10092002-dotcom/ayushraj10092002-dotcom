@@ -7,7 +7,7 @@
 <h2>🎬 Developer in Motion</h2>
 
 <p align="center">
-  <img src="./developer-motion.gif" alt="Ayush Raj - Developer in Motion" width="850">
+   <img src="./developer-motion-optimized.gif" alt="Ayush Raj - Developer in Motion" width="850">
 </p>
 
 <hr>
