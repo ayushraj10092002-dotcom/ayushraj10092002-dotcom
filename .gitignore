@@ -21,29 +21,63 @@ share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+PIPFILE.lock
 
 # Virtual Environments
 venv/
-ENV/
 env/
+ENV/
+env.bak/
+venv.bak/
 .venv
 
-# IDE
+# IDE & Editor
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 .DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
 
 # Node (if used)
 node_modules/
 npm-debug.log
 yarn-error.log
+package-lock.json
 
-# Environment variables
+# Environment Variables
 .env
 .env.local
+.env.*.local
 
 # Logs
 *.log
+logs/
+*.log.*
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# OS
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Distribution
+.eggs/
+*.egg
+*.egg-info/
