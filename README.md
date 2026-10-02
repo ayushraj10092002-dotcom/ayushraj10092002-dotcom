@@ -1,4 +1,4 @@
-<!-- AYUSH RAM - PREMIUM CINEMATIC DEVELOPER PORTFOLIO -->
+<!-- AYUSH RAJ - PREMIUM CINEMATIC DEVELOPER PORTFOLIO -->
 <div align="center">
 
 ![Hero Banner](assets/hero.svg)
