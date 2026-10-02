@@ -1,8 +1,16 @@
 <!-- AYUSH RAJ - PREMIUM CINEMATIC DEVELOPER PORTFOLIO -->
 <div align="center">
-
+   
 ![Hero Banner](assets/hero.svg)
+<hr>
 
+<h2>🎬 Developer in Motion</h2>
+
+<p align="center">
+  <img src="./developer-motion.gif" alt="Ayush Raj - Developer in Motion" width="850">
+</p>
+
+<hr>
 </div>
 
 ---
